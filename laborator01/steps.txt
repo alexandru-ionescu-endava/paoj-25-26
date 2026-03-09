@@ -1,6 +1,13 @@
-1. Instalare jdk;
+1. Instalare jdk https://javaalmanac.io/jdk/download/#product=all&version=21&type=jdk&platform=all
+
+Windows:
 2. Adaugare in OS environment_variables a jdk cu key: JAVA_HOME si valoarea calea la care este instalat jdk.
 3. Adaugare in Path din environment_variables a folderului /bin de jdk : e.g: C:\Program Files\Java\jdk21\bin
+
+Linux/MacOS:
+2. Adaugare in .bashrc sau .zshrc a urmatoarei linii: export JAVA_HOME=/calea/la/jdk
+3. Adaugare in .bashrc sau .zshrc a urmatoarei linii: export PATH=$PATH:$JAVA_HOME/bin
+
 4. Creare clasa Java: Main.java
-5. Compilare: javac Main.java
+5. Compilare: javac Main.java -> va genera un fisier Main.class
 6. Rulare: java Main
