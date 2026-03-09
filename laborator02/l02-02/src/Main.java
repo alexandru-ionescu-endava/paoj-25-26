@@ -1,6 +1,4 @@
-package src;
-
-import src.test.Calculator;
+import test.Calculator;
 
 public class Main {
 
