@@ -1,0 +1,4 @@
+this is a test file for the input of the program.
+It contains multiple lines of text to simulate a real input scenario.
+The purpose of this file is to provide data for testing the functionality of the program that reads and processes input from a file.
+Each line can be used to verify that the program correctly handles different types of input, such as strings, numbers, or special characters.
